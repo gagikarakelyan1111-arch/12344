@@ -1,3 +1,6 @@
 {
-	"item.echo_abyss.tuning_fork": "Камертон колосса"
+	"item.echo_abyss.tuning_fork": "Камертон колосса",
+	"item.echo_abyss.echo_bell": "Эхо-колокольчик",
+	"item.echo_abyss.bell_crystal": "Колокольный кристалл",
+	"creativeTab.echo_abyss": "Эхо-Бездна"
 }

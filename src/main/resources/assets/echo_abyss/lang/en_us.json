@@ -1,3 +1,6 @@
 {
-	"item.echo_abyss.tuning_fork": "Colossus Tuning Fork"
+	"item.echo_abyss.tuning_fork": "Colossus Tuning Fork",
+	"item.echo_abyss.echo_bell": "Echo Bell",
+	"item.echo_abyss.bell_crystal": "Bell Crystal",
+	"creativeTab.echo_abyss": "Echo Abyss"
 }
