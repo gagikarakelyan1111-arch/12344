@@ -25,6 +25,9 @@ public final class ModItems {
 		p -> new WaveItem(p, 12.0, 12.0, 40, SoundEvents.BELL_BLOCK, 1.2F),
 		new Item.Properties().stacksTo(1).rarity(Rarity.RARE));
 
+	// Right click: travel to the Echo Abyss dimension and back.
+	public static final Item ECHO_KEY = register("echo_key", AbyssKeyItem::new, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
+
 	// Material item (no use yet).
 	public static final Item BELL_CRYSTAL = register("bell_crystal", Item::new, new Item.Properties());
 
@@ -36,6 +39,7 @@ public final class ModItems {
 		.title(Component.translatable("creativeTab.echo_abyss"))
 		.displayItems((params, output) -> {
 			output.accept(TUNING_FORK);
+			output.accept(ECHO_KEY);
 			output.accept(ECHO_BELL);
 			output.accept(BELL_CRYSTAL);
 		})
